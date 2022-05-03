@@ -15,7 +15,7 @@ The main task of the project is to determine the best algorithm (from the above)
 ## Content
 The repository contains two programs:
 - ```csv_convertion.py``` that splits the data into two ```csv``` files: testing (that contains 10% of the data) and training (with 90% of the data). It was already applied on ```ratings.csv``` and returned ```train_ratings.csv``` and ```test_ratings.csv```.
-- ```recom_system.py``` 
+- ```recom_system.py``` that applies one of the alghoritms on splitted files and computes root-mean square error.
 
 ## Usage
 Program takes following parameters:
